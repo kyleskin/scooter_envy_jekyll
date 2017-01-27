@@ -1,0 +1,36 @@
+<div>
+  <ul class="navbar animated fadeInRight fadeIn">
+    <a href="/index"><img id='scooter_only' src="../assets/images/scooter_only.png" alt=""></a>
+    {% if page.url == '/about.html' %}
+      <li class='nav_links active'>
+    {% else %}
+      <li class='nav_links'>
+    {% endif %}
+      <a href="/about">About</a>
+      </li>
+
+    {% if page.url == '/services.html' %}
+      <li class='nav_links active'>
+    {% else %}
+      <li class='nav_links'>
+    {% endif %}
+      <a href="/services">Services</a>
+      </li>
+
+    {% if page.url == '/portfolio.html' %}
+      <li class='nav_links active'>
+    {% else %}
+      <li class='nav_links'>
+    {% endif %}
+      <a href="/portfolio">Portfolio</a>
+      </li>
+
+    {% if page.url == '/contact.html' %}
+      <li class='nav_links active'>
+    {% else %}
+      <li class='nav_links'>
+    {% endif %}
+      <a href="/contact">Contact</a>
+      </li>
+  </ul>
+</div>

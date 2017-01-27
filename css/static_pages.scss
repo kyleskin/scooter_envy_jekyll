@@ -1,0 +1,176 @@
+---
+---
+$green: #27B899;
+$gray: #999;
+$white: #fff;
+
+/* Landing Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header {
+  div#homepage_navbar {
+    text-decoration: none;
+    margin-top: 45px;
+    padding-bottom: 90px;
+    border-bottom: solid $gray 2px;
+    color: #2A2B2A;
+    -webkit-animation-delay: .75s;
+    #homepage_left_links {
+      float: left;
+      list-style: none;
+      li {
+        display: inline;
+        font-size: 18pt;
+        margin-left: 75px;
+      }
+    }
+    #homepage_right_links {
+      float: right;
+      display: inline;
+      list-style: none;
+      li {
+        margin-right: 75px;
+
+      }
+    }
+  }
+  .logo-homepage {
+    width: 400px;
+    border-radius: 200px;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.75);
+    position: relative;
+    margin-top: -6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation-duration: 2.5s;
+  }
+}
+.homepage_headline {
+  font-size: 25pt;
+  color: $green;
+  margin-top: 2rem;
+  font-weight: normal;
+  -webkit-animation-delay: 1s;
+}
+
+.homepage_secondline {
+  color: $green;
+  font-weight: normal;
+  font-size: 20pt;
+  -webkit-animation-delay: 1s;
+  // margin-top: -1rem;
+  line-height: 1.25;
+}
+
+//Navbar
+.navbar {
+  padding: .75rem 5rem;
+  #scooter_only {
+    width: 100px;
+  }
+  .nav_links {
+    margin-left: 7rem;
+  }
+}
+
+
+/* About Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#about_text {
+  margin: 5rem auto;
+  -webkit-animation-delay: .75s;
+  p {
+    line-height: 1.5;
+    letter-spacing: .07em;
+    color: #999;
+  }
+}
+
+/* Services Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.service_wrapper {
+  margin-top: 5rem;
+  -webkit-animation-delay: .8s;
+  -webkit-animation-delay: 1s;
+  .service_title {
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: $green;
+    color: $white;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    padding: .5rem 0;
+  }
+  .service_description {
+    color: $gray;
+    font-size: 1.8rem;
+    letter-spacing: .08rem;
+    margin-top: 2.5rem;
+  }
+}
+
+/* Portfolio Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.portfolio_example {
+  margin-top: 5rem;
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.75);
+  -webkit-animation-delay: .8s;
+  -webkit-animation-duration: 1s;
+}
+
+.portfolio_tag {
+  color: white;
+  background: $green;
+  padding: 1rem;
+  margin-top: 40%;
+  font-weight: 200;
+  letter-spacing: .1rem;
+  display: none;
+}
+
+.portfolio_example:hover {
+  transform: scale(1.1,1.1);
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Contact Page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#contact_form {
+  margin-top: 5rem;
+  -webkit-animation-delay: .8s;
+  -webkit-animation-duration: 1s;
+  h4 {
+    margin-bottom: .5rem;
+  }
+  input, textarea {
+    border: solid $green 3px;
+    border-radius: 0;
+    padding: .5rem;
+    margin-bottom: -.25rem;
+  }
+  #send_button {
+    background: $green;
+    color: $white;
+    width: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  #send_button:hover {
+    background: $white;
+    color: $green;
+    cursor: pointer;
+  }
+  input:focus {
+    border: solid $green 5px;
+    outline: none;
+  }
+  textarea:focus {
+    border: solid $green 5px;
+    outline: none;
+  }
+  #send_button:focus {
+    background-color: $white;
+    color: $green;
+  }
+}

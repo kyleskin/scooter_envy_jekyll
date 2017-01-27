@@ -1,0 +1,22 @@
+---
+layout: default
+ribbon: Send us an email to get your free quote today!
+---
+
+{% include navbar.html %}
+{% include green_ribbon.html %}
+
+<div class="row">
+  <form action="" id="contact_form" class="eight columns offset-by-two animated fadeIn">
+    <h4 class="contact_form_title">What's your name?</h3>
+      <input class="u-full-width" type='text' placeholder='name' autofocus>
+    <h4 class="contact_form_title">How can we reach you?</h3>
+      <input class="u-full-width"  type='email' placeholder='email'>
+    <h4 class="contact_form_title">What can we do for you?</h3>
+      <textarea class="u-full-width"  placeholder='message...'></textarea>
+    <br>
+      <input type='submit' value='send' id="send_button">
+  </form>
+</div>
+
+{% include footer.html %}

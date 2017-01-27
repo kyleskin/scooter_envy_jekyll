@@ -1,0 +1,46 @@
+---
+---
+ $green: #27B899;
+ $gray: #999;
+ $white: #fff;
+ body {
+   font-family: "niveau-grotesk";
+ }
+
+ li {
+   list-style: none;
+   display: inline;
+   display: inline;
+   letter-spacing: 0.1em;
+   font-size: 18pt;
+ }
+ li:hover, .active {
+   border-bottom: solid $green 3px;
+ }
+
+.text_wrapper {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: #2A2B2A;
+}
+
+
+/* Green Ribbon
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.green_ribbon {
+  width: 100%;
+  background-color: $green;
+  color: $white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  -webkit-animation-delay: .5s;
+  -webkit-animate-duration: 1s;
+}
